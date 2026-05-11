@@ -18,19 +18,19 @@
 
 ```yaml
 ism:           TexUz
-rol:           Backend & Full-Stack Developer / AI Engineer
+rol:           Backend / AI muhandis / jamoa rahbari
 joylashuv:     Qo'qon, O'zbekiston
-ish_joyi:      1Pro — backend muhandis
-asosiy_tillar: [Go, Python]
-ma'lumotlar:   [PostgreSQL, Redis, MongoDB, Qdrant]
-hozir_o'rgan:  [Microservices, gRPC, Kubernetes, LLM/RAG, Clean Architecture]
-qiziqishlar:   [Tez API'lar, Tizim dizayni, DevOps, AI integratsiya, Open Source]
+loyihalar:     [1Pro (AI Inference Gateway), Gazer Max (aqlli kampus), KokandSU AI]
+asosiy_tillar: [Python, Go]
+texnologiyalar: [Django, FastAPI, PostgreSQL, pgvector, Redis, Docker, Cloudflare]
+ai_stack:      [InsightFace, CUDA, LLM API, RAG, Vector search]
+hozir_o'rgan:  [Model fine-tuning, Tizim markazlashtirish, MLOps]
 shior:         "G'oyalarni o'ylab topib bo'lmaydi, ular asta-sekin shakllanadi."
 ```
 
-- Hozir **1Pro** ekotizimi (portal, Gazer monitoring, ichki API'lar) va **KokandSU AI Assistant** ustida ishlayapman.
-- AI muhandisligi yo'nalishida: **LLM API'lar**, **RAG**, **vector qidiruv** va **agent**'lar bilan ishlayman.
-- Backend arxitekturasi, PostgreSQL optimallashtirish, Docker va AI integratsiyasi bo'yicha gaplasha olaman.
+- Hozir **1Pro AI Inference Gateway** (LLM API platforma) va **Gazer Max** (yuz tanish asosidagi aqlli kampus tizimi) ustida ishlayapman; **KokandSU AI Assistant** ham mening loyihalarimdan biri.
+- **AI muhandisligi** yo'nalishida: LLM API'lar, **RAG**, **vector qidiruv** (`pgvector` HNSW), **yuz embedding** (`InsightFace` + CUDA) va **agentlar** bilan ishlayman.
+- **Backend arxitekturasi**, PostgreSQL optimallashtirish, real-time tizimlar (WebSocket, mediamtx), **Hikvision ISAPI** va **Cloudflare Tunnel** bo'yicha gaplasha olaman.
 - Bog'lanish: **yaxyobek877@gmail.com** yoki Telegram orqali.
 
 ---
@@ -93,63 +93,143 @@ shior:         "G'oyalarni o'ylab topib bo'lmaydi, ular asta-sekin shakllanadi."
 <p>
   <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
   <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
-  <img src="https://img.shields.io/badge/Qdrant-DC382D?style=for-the-badge&logo=qdrant&logoColor=white" />
+  <img src="https://img.shields.io/badge/InsightFace-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/NVIDIA_CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
+  <img src="https://img.shields.io/badge/pgvector-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/RAG-009688?style=for-the-badge&logo=databricks&logoColor=white" />
+</p>
+
+**Infratuzilma**
+
+<p>
+  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" />
+  <img src="https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socket.io&logoColor=white" />
+  <img src="https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white" />
+  <img src="https://img.shields.io/badge/Hikvision_ISAPI-CC0000?style=for-the-badge&logo=cctv&logoColor=white" />
+  <img src="https://img.shields.io/badge/mediamtx-F25022?style=for-the-badge&logo=videoangel&logoColor=white" />
 </p>
 
 ---
 
 ## Asosiy loyihalarim
 
-Quyida men ishtirok etgan yoki ishlab chiqilayotgan asosiy loyihalar — har biriga to'g'ridan-to'g'ri kirib ko'rishingiz mumkin.
-
-### 1Pro
+### 1Pro — AI Inference Gateway
 
 <p>
   <a href="http://1pro.uz/">
-    <img src="https://img.shields.io/badge/Demo-1pro.uz-00ADD8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="1pro.uz" />
+    <img src="https://img.shields.io/badge/Sayt-1pro.uz-00ADD8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="1pro.uz" />
+  </a>
+  <a href="https://1pro.uz/dashboard">
+    <img src="https://img.shields.io/badge/Dashboard-1pro.uz%2Fdashboard-412991?style=for-the-badge&logo=vercel&logoColor=white" alt="Dashboard" />
   </a>
 </p>
 
-**Sayt:** [1pro.uz](http://1pro.uz/) &nbsp;·&nbsp; **Rolim:** Backend developer &nbsp;·&nbsp; **Kompaniya:** 1Pro
+**Sayt:** [1pro.uz](http://1pro.uz/) &nbsp;·&nbsp; **Tur:** AI Inference Gateway &nbsp;·&nbsp; **Rolim:** Backend va AI integratsiya
 
-1Pro — men ishlayotgan asosiy mahsulot. Backend tomonda men ishlayman: API'lar, ma'lumotlar bazasi, biznes mantiq. Mahsulot O'zbekistondagi kompaniyalarga mo'ljallangan.
+**1Pro** — bu **kuchli sun'iy intellekt modellariga yagona API** orqali sodda kirish imkonini beruvchi platforma. Startaplar va dasturchilar uchun: ro'yxatdan o'tib, bepul foydalanishni boshlab, chat yoki API orqali darhol ishga tushirish mumkin.
 
-> Loyihaning batafsil texnik tafsilotlari va modullari ro'yxati tez orada qo'shiladi.
-> Hozircha demoni saytda ko'rishingiz mumkin.
+**Asosiy g'oya**
+> Biz infratuzilma murakkabligini o'z zimmamizga olamiz —
+> shunda sizning startapingiz to'liq AI funksiyalarini yaratishga e'tibor qaratishi mumkin.
+
+**Imkoniyatlar**
+- **Yagona interfeys** — bitta API kaliti, bitta endpoint formati. 70B klassdagi modellardan tez foydalanish.
+- **Bepul boshlash** — yangi foydalanuvchilar uchun bepul kvota. Dashboard orqali token sarfi, limitlar va umumiy foydalanishni aniq kuzating.
+- **Korporativ xavfsizlik** — model darajasidagi qat'iy ruxsatnomalar. Ishlab chiqish, sinov va asosiy (production) kalitlar bir-biridan ajratilgan.
+- **OpenAI-mos API** — standart `chat/completions` formati, mavjud SDK'lar ishlaydi.
+
+**API misoli** (Python, Node.js va cURL'da qo'llab-quvvatlanadi)
+
+```python
+import requests
+
+api_key = "sk-[Sizning-Kalitingiz]"
+url = "https://1pro.uz/v1/chat/completions"
+
+headers = {
+    "Authorization": f"Bearer {api_key}",
+    "Content-Type": "application/json"
+}
+data = {
+    "model": "coder",
+    "messages": [{"role": "user", "content": "Salom!"}]
+}
+
+response = requests.post(url, headers=headers, json=data)
+print(response.json())
+```
 
 ---
 
-### 1Pro Portal
-
-<p>
-  <a href="https://portal.1pro.uz/">
-    <img src="https://img.shields.io/badge/Portal-portal.1pro.uz-00ADD8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="portal.1pro.uz" />
-  </a>
-</p>
-
-**Sayt:** [portal.1pro.uz](https://portal.1pro.uz/) &nbsp;·&nbsp; **Rolim:** Backend / full-stack &nbsp;·&nbsp; **Kompaniya:** 1Pro
-
-1Pro ekotizimining boshqaruv portali. Men backend qismida ishlayman.
-
-> Bu yerda portal funksiyalari, modullari va texnik stack tez orada batafsil yoziladi.
-
----
-
-### Gazer
+### Gazer Max — aqlli kampus tizimi
 
 <p>
   <a href="https://gazer.1pro.uz/presentation.html">
-    <img src="https://img.shields.io/badge/Prezentatsiya-gazer.1pro.uz/presentation.html-00ADD8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Gazer presentation" />
+    <img src="https://img.shields.io/badge/Prezentatsiya-gazer.1pro.uz%2Fpresentation.html-00ADD8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Gazer Max prezentatsiya" />
   </a>
+  <img src="https://img.shields.io/badge/%231-Aqlli%20kampus-success?style=for-the-badge&labelColor=0d1117" alt="#1 aqlli kampus" />
 </p>
 
-**Prezentatsiya sahifasi:** [gazer.1pro.uz/presentation.html](https://gazer.1pro.uz/presentation.html) &nbsp;·&nbsp; **Rolim:** Backend &nbsp;·&nbsp; **Kompaniya:** 1Pro
+**Prezentatsiya:** [gazer.1pro.uz/presentation.html](https://gazer.1pro.uz/presentation.html) &nbsp;·&nbsp; **Tur:** Yuz tanish va aqlli kampus platformasi &nbsp;·&nbsp; **Rolim:** Backend / AI / jamoa rahbari
 
-Gazer — 1Pro ekotizimining bir qismi. Loyiha haqida to'liq ma'lumot va imkoniyatlarni **prezentatsiya sahifasida** ko'rishingiz mumkin (yuqoridagi link).
+**Gazer Max** — universitet, maktab va tashkilotlar uchun **yagona AI platforma**. Yuz tanish, avtomatik davomat, turniket va kameralarni boshqarish, real-vaqt xavfsizlik — hammasi bitta tizimda. O'zbekistonda **20 000+ talabaga sinovdan o'tgan**.
 
-> Loyiha texnologiyalari va funksiyalari haqida batafsil ma'lumot tez orada qo'shiladi.
+**Tagline**
+> Yuzni biroz ko'rsang — yetarli. Qolganini AI bajaradi.
+
+**Real ko'rsatkichlar (universitet sinovi)**
+
+| Ko'rsatkich | Qiymat |
+|---|---|
+| Faol talaba bazasi | **20 000+** |
+| IP kameralar | **40+** |
+| Turniketlar | **30+** |
+| Yuz qidiruv vaqti | **< 10 ms** |
+| Tanish aniqligi | **99.6%** |
+| O'rnatish vaqti | **1 hafta** |
+| Eshik ochilish | **~50 ms** |
+
+**Modullar (12 ta, mustaqil ishlatish mumkin)**
+- **Yuz tanish (AI)** — 512-o'lchovli embedding, pgvector HNSW indeks
+- **Avtomatik davomat** — `on_time` / `late` / `absent` / `left_early` holatlari
+- **Real-vaqt monitor** — 40+ kamera bitta ekranda, har frame'da AI tahlili
+- **Turniket boshqaruvi** — Hikvision (DS-K1T341CMF) ISAPI orqali, offline'da ham
+- **Bino va xona xaritasi** — Building / Floor / Classroom hierarchy
+- **Yuz orqali qidiruv** — bitta rasm yuklang, to'liq tarix chiqadi (reverse search)
+- **HEMIS sinxronizatsiyasi** — talaba/fakultet/guruh avtomatik
+- **Dars jadvali** — davomat avtomatik shu jadval asosida
+- **Hisobot va analitika** — live dashboard, Excel/PDF eksport
+- **Granular kirish nazorati** — har foydalanuvchiga aniq kameralar/binolar/xonalar
+- **Live audit jurnal** — har bir kirish, admin amali, urinish
+- **Ochiq REST API** — Swagger, API key scope (read/write/full)
+
+**Texnik stack**
+- **AI:** InsightFace (buffalo_l) + NVIDIA CUDA — yuz embedding
+- **Vector DB:** PostgreSQL + **pgvector HNSW** indeks
+- **Backend:** Django 5 + Celery + Redis
+- **Frontend:** React 19
+- **Media:** mediamtx (HLS & WebRTC, 25 fps)
+- **Qurilmalar:** Hikvision IP kameralar va turniketlar (ISAPI)
+- **Infra:** Docker, **Cloudflare Tunnel** (outbound-only — server hech qanday port ochmaydi)
+- **Real-time:** WebSocket
+
+**7 qatlamli xavfsizlik**
+1. Cloudflare Edge (WAF, DDoS, bot, GeoIP)
+2. Cloudflare Access (2FA admin panel uchun)
+3. nginx + TLS 1.3
+4. Django + Argon2id (brute-force lock, CSRF, CSP)
+5. Ma'lumotlar bazasi shifrlangan (Fernet AES-256)
+6. JWT (15-daqiqalik token) + API kalitlar scope bilan
+7. To'liq audit jurnal
+
+**Foydalanuvchilar**
+Universitetlar · maktablar va litseylar · korxonalar va ofislar · tibbiy muassasalar · davlat idoralari · zavod va omborlar
+
+**Natijalar (1 oydan keyin)**
+- −92% davomat vaqti (30 daqiqa → 0)
+- +45% davomat aniqligi
+- −68% xavfsizlik insidentlari
+- 0 so'm ID-karta xarajati
 
 ---
 
