@@ -102,102 +102,70 @@ shior:         "Sodda kod — eng yaxshi kod."
 
 ## Asosiy loyihalarim
 
-> Quyida men ishtirok etgan yoki yaratgan asosiy loyihalar haqida batafsil ma'lumot.
-> Har bir loyiha alohida e'tibor bilan ishlangan va real foydalanuvchilarga xizmat qilmoqda.
+Quyida men ishtirok etgan yoki ishlab chiqilayotgan asosiy loyihalar — har biriga to'g'ridan-to'g'ri kirib ko'rishingiz mumkin.
 
-### 1Pro — biznes uchun yagona platforma
+### 1Pro
 
-> **Sayt:** [1pro.uz](http://1pro.uz/) &nbsp;|&nbsp; **Rolim:** Backend developer
+<p>
+  <a href="http://1pro.uz/">
+    <img src="https://img.shields.io/badge/Demo-1pro.uz-00ADD8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="1pro.uz" />
+  </a>
+</p>
 
-**1Pro** — bu O'zbekistondagi kompaniyalar uchun yagona biznes-boshqaruv ekotizimi.
-Mijozlar, sotuvlar, omborxona, kadrlar va moliyaviy hisobotlarni bitta joyda boshqarish imkonini beradi.
+**Sayt:** [1pro.uz](http://1pro.uz/) &nbsp;·&nbsp; **Rolim:** Backend developer &nbsp;·&nbsp; **Kompaniya:** 1Pro
 
-**Texnik tafsilotlar**
-- **Backend:** Go (Gin/Fiber), REST + gRPC API
-- **Ma'lumotlar bazasi:** PostgreSQL + Redis (kesh va sessiya)
-- **Auth:** JWT, RBAC asosida ruxsatlar tizimi
-- **Infrastruktura:** Docker, Nginx, CI/CD orqali avtomatik deploy
-- **Xususiyatlar:** ko'p tenantli (multi-tenant) arxitektura, audit log, role-based access
+1Pro — men ishlayotgan asosiy mahsulot. Backend tomonda men ishlayman: API'lar, ma'lumotlar bazasi, biznes mantiq. Mahsulot O'zbekistondagi kompaniyalarga mo'ljallangan.
 
-**Asosiy yutuqlar**
-- Bir necha kompaniya bir vaqtda foydalanadigan multi-tenant tizim
-- 50ms dan tez javob beradigan optimallashtirilgan API'lar
-- PostgreSQL indekslari bilan ishlash — katta jadvallarda ham tez query'lar
+> Loyihaning batafsil texnik tafsilotlari va modullari ro'yxati tez orada qo'shiladi.
+> Hozircha demoni saytda ko'rishingiz mumkin.
 
 ---
 
-### 1Pro Portal — korporativ boshqaruv portali
+### 1Pro Portal
 
-> **Sayt:** [portal.1pro.uz](https://portal.1pro.uz/) &nbsp;|&nbsp; **Rolim:** Full-stack ishtirok
+<p>
+  <a href="https://portal.1pro.uz/">
+    <img src="https://img.shields.io/badge/Portal-portal.1pro.uz-00ADD8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="portal.1pro.uz" />
+  </a>
+</p>
 
-**1Pro Portal** — bu kompaniya xodimlari va boshqaruvi uchun ichki ish portali.
-Hujjatlar, vazifalar, hisobotlar va xodimlar bilan ishlash uchun mo'ljallangan.
+**Sayt:** [portal.1pro.uz](https://portal.1pro.uz/) &nbsp;·&nbsp; **Rolim:** Backend / full-stack &nbsp;·&nbsp; **Kompaniya:** 1Pro
 
-**Texnik tafsilotlar**
-- **Backend:** Go microservices, REST API
-- **Ma'lumotlar bazasi:** PostgreSQL, fayllar uchun S3-mos saqlash
-- **Real-time:** WebSocket orqali bildirishnomalar
-- **Frontend:** zamonaviy SPA, server bilan token orqali autentifikatsiya
+1Pro ekotizimining boshqaruv portali. Men backend qismida ishlayman.
 
-**Imkoniyatlar**
-- Hujjatlarni elektron tarzda imzolash va boshqarish
-- Xodimlar va bo'limlarni boshqarish (HR moduli)
-- Boshliqlar uchun real-time dashboard
-- Push va email orqali bildirishnomalar
+> Bu yerda portal funksiyalari, modullari va texnik stack tez orada batafsil yoziladi.
 
 ---
 
-### Gazer — taqdimot va monitoring tizimi
+### Gazer
 
-> **Sayt:** [gazer.1pro.uz](https://gazer.1pro.uz/presentation.html) &nbsp;|&nbsp; **Rolim:** Backend va system design
+<p>
+  <a href="https://gazer.1pro.uz/presentation.html">
+    <img src="https://img.shields.io/badge/Prezentatsiya-gazer.1pro.uz/presentation.html-00ADD8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Gazer presentation" />
+  </a>
+</p>
 
-**Gazer** — bu real-time monitoring va prezentatsiya tizimi.
-Tizim holatini, server metrikalarini, biznes ko'rsatkichlarini katta ekranlarda chiroyli ko'rsatish uchun mo'ljallangan.
+**Prezentatsiya sahifasi:** [gazer.1pro.uz/presentation.html](https://gazer.1pro.uz/presentation.html) &nbsp;·&nbsp; **Rolim:** Backend &nbsp;·&nbsp; **Kompaniya:** 1Pro
 
-**Texnik tafsilotlar**
-- **Backend:** Go, yengil va tez WebSocket server
-- **Frontend:** real-time grafikalar va dashboardlar
-- **Ma'lumotlar manbai:** PostgreSQL, Redis pub/sub, tashqi API'lar
-- **Deployment:** Docker container, Nginx reverse proxy
+Gazer — 1Pro ekotizimining bir qismi. Loyiha haqida to'liq ma'lumot va imkoniyatlarni **prezentatsiya sahifasida** ko'rishingiz mumkin (yuqoridagi link).
 
-**Foydalanish holatlari**
-- Ofislarda real-time KPI ekranlari
-- Serverlar va xizmatlarning sog'lig'ini kuzatish
-- Boshliqlar uchun yig'ilish prezentatsiyalari
-- Sotuvlar va konversiya statistikasi
+> Loyiha texnologiyalari va funksiyalari haqida batafsil ma'lumot tez orada qo'shiladi.
 
 ---
 
-### KokandSU AI Assistant — universitet uchun aqlli yordamchi
+### KokandSU AI Assistant
 
-> **Sayt:** [demo.kokandsu.uz](http://demo.kokandsu.uz/) &nbsp;|&nbsp; **Mijoz:** [Qo'qon Davlat Universiteti](https://kokandsu.uz/) &nbsp;|&nbsp; **Rolim:** Backend va AI integratsiya
+<p>
+  <a href="http://demo.kokandsu.uz/">
+    <img src="https://img.shields.io/badge/Demo-demo.kokandsu.uz-00ADD8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="demo.kokandsu.uz" />
+  </a>
+</p>
 
-**KokandSU AI Assistant** — bu **Qo'qon Davlat Universiteti** talabalari va xodimlari uchun mo'ljallangan zamonaviy AI yordamchi platformasi. Universitet ichidagi savol-javob, hujjatlar bilan ishlash va o'quv jarayonini soddalashtirish uchun yaratilgan.
+**Sayt:** [demo.kokandsu.uz](http://demo.kokandsu.uz/) &nbsp;·&nbsp; **Mijoz:** [Qo'qon Davlat Universiteti](https://kokandsu.uz/) &nbsp;·&nbsp; **Rolim:** Backend va AI integratsiya
 
-**Asosiy imkoniyatlar**
-- **Chat** — universitet va o'qish bo'yicha savollarga AI orqali javob
-- **Kod** — talabalar uchun kod yozish va tushuntirish (Python, Go, JS va h.k.)
-- **Hujjat** — PDF/DOCX hujjatlarni yuklash, tahlil qilish va savollar berish
-- **Ovoz** — ovozli kirish va matnga aylantirish (speech-to-text)
+Qo'qon Davlat Universiteti uchun AI yordamchi. Saytda ko'rinib turganidek, asosiy yo'nalishlari: **chat**, **kod**, **hujjat**, **ovoz**.
 
-**Texnik tafsilotlar**
-- **Backend:** Python (FastAPI) + Go microservice'lar
-- **AI / LLM:** Claude / GPT API integratsiyasi, RAG (Retrieval-Augmented Generation) arxitekturasi
-- **Vector DB:** hujjatlarni semantik qidirish uchun (Qdrant / pgvector)
-- **Ma'lumotlar bazasi:** PostgreSQL — foydalanuvchilar, sessiyalar, chat tarixi
-- **Auth:** HEMIS integratsiyasi — talabalar universitet hisobi bilan kirishlari mumkin
-- **Frontend:** zamonaviy SPA (chat interfeysi, fayl yuklash, ovoz yozish)
-- **Tillar:** O'zbek, Rus, Ingliz tillarida ishlaydi
-
-**Foydalanish stsenariylari**
-- Talabalar: ma'ruza materiallari bo'yicha savol berish, kursni tushuntirish
-- O'qituvchilar: hujjat va testlar tayyorlashda yordam
-- Ma'muriyat: ichki hujjatlar va nizomlar bo'yicha tezkor javob
-- Maktabitalar: universitet, fakultetlar va qabul haqida ma'lumot olish
-
-**Loyihaning ahamiyati**
-> O'zbekistonda **birinchi rasmiy universitet AI yordamchilaridan biri**.
-> Talabalarning vaqtini tejaydi va ma'lumotga tezkor kirish imkonini beradi.
+> Texnik stack, modellar va arxitektura haqida batafsil ma'lumot tez orada qo'shiladi.
 
 ---
 
