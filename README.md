@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://github.com/Yaxyobek0877">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00ADD8&center=true&vCenter=true&width=760&lines=Salom%2C+men+Yaxyobek!;Backend+%26+Full-Stack+Developer;AI+Engineer+%2F+LLM+integratsiya;Go+%7C+Python+%7C+PostgreSQL;Qo%CA%BBqondan+salom%21" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00ADD8&center=true&vCenter=true&width=760&lines=Salom%2C+men+TexUz!;Backend+%26+Full-Stack+Developer;AI+Engineer+%2F+LLM+integratsiya;Go+%7C+Python+%7C+PostgreSQL;Qo%CA%BBqondan+salom%21" alt="Typing SVG" />
   </a>
 </h1>
 
@@ -17,7 +17,7 @@
 ## Men haqimda
 
 ```yaml
-ism:           Yaxyobek Adhamov
+ism:           TexUz
 rol:           Backend & Full-Stack Developer / AI Engineer
 joylashuv:     Qo'qon, O'zbekiston
 ish_joyi:      1Pro — backend muhandis
