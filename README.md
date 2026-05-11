@@ -22,15 +22,15 @@ rol:           Backend & Full-Stack Developer
 joylashuv:     🇺🇿 Toshkent, O'zbekiston
 ish_joyi:      1Pro — backend muhandis
 asosiy_tillar: [Go, Python]
-ma'lumotlar:   [PostgreSQL, Redis, MongoDB]
-hozir_o'rgan:  [Microservices, gRPC, Kubernetes, Clean Architecture]
-qiziqishlar:   ["Tez va ishonchli API'lar", "Tizim dizayni", "DevOps", "Open Source"]
+ma'lumotlar:   [PostgreSQL, Redis, MongoDB, Qdrant]
+hozir_o'rgan:  [Microservices, gRPC, Kubernetes, LLM/RAG, Clean Architecture]
+qiziqishlar:   ["Tez va ishonchli API'lar", "Tizim dizayni", "DevOps", "AI integratsiya", "Open Source"]
 shior:         "Sodda kod — eng yaxshi kod."
 ```
 
-- 🔭 Hozir **1Pro** ekotizimi (portal, Gazer monitoring, ichki API'lar) ustida ishlayapman
-- 🌱 **Go microservices**, **gRPC** va **Kubernetes**ni chuqurroq o'rganmoqdaman
-- 💬 Backend arxitekturasi, PostgreSQL optimallashtirish va Docker bo'yicha gaplasha olaman
+- 🔭 Hozir **1Pro** ekotizimi (portal, Gazer monitoring, ichki API'lar) va **KokandSU AI Assistant** ustida ishlayapman
+- 🌱 **Go microservices**, **gRPC**, **Kubernetes** va **LLM/RAG** arxitekturasini chuqurroq o'rganmoqdaman
+- 💬 Backend arxitekturasi, PostgreSQL optimallashtirish, Docker va AI integratsiyasi bo'yicha gaplasha olaman
 - ⚡ Qiziqarli fakt: bo'sh vaqtimda terminal sozlamalari va `vim` keybinding'lari bilan o'ynashni yaxshi ko'raman
 - 📫 Bog'lanish: **testeryahyobek@gmail.com** yoki Telegram orqali
 
@@ -82,6 +82,15 @@ shior:         "Sodda kod — eng yaxshi kod."
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
   <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+</p>
+
+#### AI / LLM
+<p>
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
+  <img src="https://img.shields.io/badge/Qdrant-DC382D?style=for-the-badge&logo=qdrant&logoColor=white" />
+  <img src="https://img.shields.io/badge/RAG-009688?style=for-the-badge&logo=databricks&logoColor=white" />
 </p>
 
 ---
@@ -148,6 +157,38 @@ Tizim holatini, server metrikalarini, biznes ko'rsatkichlarini katta ekranlarda 
 - 🛰️ Serverlar va xizmatlarning sog'lig'ini kuzatish
 - 🎯 Boshliqlar uchun yig'ilish prezentatsiyalari
 - 📈 Sotuvlar va konversiya statistikasi
+
+---
+
+### 🎓 KokandSU AI Assistant — universitet uchun aqlli yordamchi
+> **🔗 Sayt:** [demo.kokandsu.uz](http://demo.kokandsu.uz/) &nbsp;|&nbsp; **🏛️ Mijoz:** [Qo'qon Davlat Universiteti](https://kokandsu.uz/) &nbsp;|&nbsp; **🧩 Rolim:** Backend & AI integratsiya
+
+**KokandSU AI Assistant** — bu **Qo'qon Davlat Universiteti** talabalari va xodimlari uchun mo'ljallangan zamonaviy AI yordamchi platformasi. Universitet ichidagi savol-javob, hujjatlar bilan ishlash va o'quv jarayonini soddalashtirish uchun yaratilgan.
+
+**💬 Asosiy imkoniyatlar:**
+- 🤖 **Chat** — universitet va o'qish bo'yicha savollarga AI orqali javob
+- 💻 **Kod** — talabalar uchun kod yozish va tushuntirish (Python, Go, JS va h.k.)
+- 📄 **Hujjat** — PDF/DOCX hujjatlarni yuklash, tahlil qilish va savollar berish
+- 🎙️ **Ovoz** — ovozli kirish va matnga aylantirish (speech-to-text)
+
+**🧠 Texnik tafsilotlar:**
+- **Backend:** Python (FastAPI) + Go microservice'lar
+- **AI / LLM:** Claude / GPT API integratsiyasi, RAG (Retrieval-Augmented Generation) arxitekturasi
+- **Vector DB:** hujjatlarni semantik qidirish uchun (Qdrant / pgvector)
+- **Ma'lumotlar bazasi:** PostgreSQL — foydalanuvchilar, sessiyalar, chat tarixi
+- **Auth:** HEMIS integratsiyasi — talabalar universitet hisobi bilan kirishlari mumkin
+- **Frontend:** zamonaviy SPA (chat interfeysi, fayl yuklash, ovoz yozish)
+- **Tillar:** O'zbek, Rus, Ingliz tillarida ishlaydi
+
+**✨ Foydalanish stsenariylari:**
+- 📚 Talabalar: ma'ruza materiallari bo'yicha savol berish, kursni tushuntirish
+- 👨‍🏫 O'qituvchilar: hujjat va testlar tayyorlashda yordam
+- 🏛️ Ma'muriyat: ichki hujjatlar va nizomlar bo'yicha tezkor javob
+- 🎯 Maktabitalar: universitet, fakultetlar va qabul haqida ma'lumot olish
+
+**🎯 Loyihaning ahamiyati:**
+> O'zbekistonda **birinchi rasmiy universitet AI yordamchilaridan biri**.
+> Talabalarning vaqtini tejaydi va ma'lumotga tezkor kirish imkonini beradi.
 
 ---
 
