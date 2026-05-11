@@ -20,18 +20,21 @@
 ism:           TexUz
 rol:           Backend / AI muhandis / jamoa rahbari
 joylashuv:     Qo'qon, O'zbekiston
-loyihalar:     [1Pro (AI Inference Gateway), Gazer Max (aqlli kampus), KokandSU AI]
-asosiy_tillar: [Python, Go]
+loyihalar:     [1Pro (AI Gateway), Gazer Max (aqlli kampus), Portal (P2P mesh), KokandSU AI]
+open_source:   [github.com/Yaxyobek0877/portal_traffic]
+asosiy_tillar: [Go, Python]
 texnologiyalar: [Django, FastAPI, PostgreSQL, pgvector, Redis, Docker, Cloudflare]
 ai_stack:      [InsightFace, CUDA, LLM API, RAG, Vector search]
+tarmoq:        [WebRTC, pion/webrtc, PCP-1 (Ed25519/X25519/XChaCha20)]
 hozir_o'rgan:  [Model fine-tuning, Tizim markazlashtirish, MLOps]
 shior:         "G'oyalarni o'ylab topib bo'lmaydi, ular asta-sekin shakllanadi."
 ```
 
-- Hozir **1Pro AI Inference Gateway** (LLM API platforma) va **Gazer Max** (yuz tanish asosidagi aqlli kampus tizimi) ustida ishlayapman; **KokandSU AI Assistant** ham mening loyihalarimdan biri.
-- **AI muhandisligi** yo'nalishida: LLM API'lar, **RAG**, **vector qidiruv** (`pgvector` HNSW), **yuz embedding** (`InsightFace` + CUDA) va **agentlar** bilan ishlayman.
-- **Backend arxitekturasi**, PostgreSQL optimallashtirish, real-time tizimlar (WebSocket, mediamtx), **Hikvision ISAPI** va **Cloudflare Tunnel** bo'yicha gaplasha olaman.
-- Bog'lanish: **yaxyobek877@gmail.com** yoki Telegram orqali.
+- Hozir **1Pro AI Inference Gateway** (LLM API platforma), **Gazer Max** (yuz tanish asosidagi aqlli kampus) va **Portal** (P2P mesh tarmoq desktop dasturi, ochiq kodli) ustida ishlayapman; **KokandSU AI Assistant** ham mening loyihalarimdan biri.
+- **AI muhandisligi**: LLM API'lar, **RAG**, **vector qidiruv** (`pgvector` HNSW), **yuz embedding** (`InsightFace` + CUDA) va **agentlar**.
+- **Tarmoq va P2P**: WebRTC + `pion/webrtc`, NAT-traversal, mesh topologiya, **PCP-1** shifrlash (Ed25519 + X25519 + XChaCha20-Poly1305).
+- **Backend va infra**: PostgreSQL optimallashtirish, real-time (WebSocket, mediamtx), **Hikvision ISAPI**, **Cloudflare Tunnel**, Docker.
+- Bog'lanish: **yaxyobek877@gmail.com** yoki [Telegram](https://t.me/adhamov_yaxyobek) orqali.
 
 ---
 
@@ -107,6 +110,16 @@ shior:         "G'oyalarni o'ylab topib bo'lmaydi, ular asta-sekin shakllanadi."
   <img src="https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white" />
   <img src="https://img.shields.io/badge/Hikvision_ISAPI-CC0000?style=for-the-badge&logo=cctv&logoColor=white" />
   <img src="https://img.shields.io/badge/mediamtx-F25022?style=for-the-badge&logo=videoangel&logoColor=white" />
+</p>
+
+**Tarmoq va P2P**
+
+<p>
+  <img src="https://img.shields.io/badge/WebRTC-333333?style=for-the-badge&logo=webrtc&logoColor=white" />
+  <img src="https://img.shields.io/badge/pion%2Fwebrtc-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+  <img src="https://img.shields.io/badge/Wails-DC382D?style=for-the-badge&logo=wails&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Ed25519%20%2B%20XChaCha20-FFB400?style=for-the-badge&logo=letsencrypt&logoColor=white" />
 </p>
 
 ---
@@ -230,6 +243,73 @@ Universitetlar · maktablar va litseylar · korxonalar va ofislar · tibbiy muas
 - +45% davomat aniqligi
 - −68% xavfsizlik insidentlari
 - 0 so'm ID-karta xarajati
+
+---
+
+### Portal — P2P mesh tarmoq dasturi (open-source)
+
+<p>
+  <a href="https://portal.1pro.uz/">
+    <img src="https://img.shields.io/badge/Sayt-portal.1pro.uz-00ADD8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="portal.1pro.uz" />
+  </a>
+  <a href="https://github.com/Yaxyobek0877/portal_traffic">
+    <img src="https://img.shields.io/badge/GitHub-portal__traffic-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub repo" />
+  </a>
+  <a href="https://github.com/Yaxyobek0877/portal_traffic/releases/latest">
+    <img src="https://img.shields.io/github/v/release/Yaxyobek0877/portal_traffic?style=for-the-badge&label=Reliz&color=00ADD8&labelColor=0d1117" alt="Latest release" />
+  </a>
+  <img src="https://img.shields.io/badge/Litsenziya-MIT-success?style=for-the-badge&labelColor=0d1117" alt="MIT license" />
+</p>
+
+**Sayt:** [portal.1pro.uz](https://portal.1pro.uz/) &nbsp;·&nbsp; **Kod:** [github.com/Yaxyobek0877/portal_traffic](https://github.com/Yaxyobek0877/portal_traffic) &nbsp;·&nbsp; **Rolim:** Muallif va asosiy ishlab chiquvchi
+
+**Portal** — qurilmalar o'rtasida xususiy **peer-to-peer mesh tarmoq** quradigan desktop dastur. To'g'ridan-to'g'ri ulanish: orada hech qanday server yo'q (signaling server faqat handshake'da ishtirok etadi). Mahalliy hisob, bir nechta xona bir vaqtda, avtomatik qayta ulanish. Chat, fayl, kamera/NVR/o'yin serveri uchun port tunneli — hammasi P2P.
+
+**Tagline**
+> Server o'rtada yo'q. To'g'ridan-to'g'ri ulanish.
+
+**Asosiy imkoniyatlar**
+- **2 dan 16 qurilmagacha** mesh tarmoq — Portal ID + kod bilan ulashish (router/VPN/port forwarding kerak emas)
+- **Chat va fayl uzatish** — drag-and-drop, uchidan-uchiga shifrlangan
+- **TCP/UDP tunnel** — Minecraft serveri, Hikvision NVR, LAN kameralar va boshqa servislarni mesh orqali ulashish
+- **Jonli mesh diagrammasi** — RTT, NAT-traversal indikatorlari (LAN / Internet / TURN), bandwidth probe
+- **QR + portal kod** — yonidagi do'stga QR, masofadagiga ID + kod
+- **Mahalliy hisob** — bcrypt parol, email yoki markaziy ro'yxatdan o'tish yo'q
+- **Multi-portal** — oilaviy + ishxona + o'yin xonalari parallel
+- **Avtomatik qayta ulanish** — tizim qayta yuklanganda oldingi sessiyalar tiklanadi
+- **Per-service approval** — har bir ulanishni alohida tasdiqlash
+
+**Shifrlash: PCP-1 protokoli**
+WebRTC DTLS ostida ikkinchi qatlam shifrlash:
+- **Ed25519** — identity kalitlar
+- **X25519** — ephemeral key exchange
+- **XChaCha20-Poly1305** — symmetric shifrlash
+- **Per-pair forward secrecy** — har juftlik uchun alohida kalitlar
+
+**Texnik stack**
+- **Tarmoq:** `pion/webrtc` (Go), full mesh, multipleks data channel, heartbeat
+- **Desktop UI:** Wails + React
+- **Mobile:** Android (beta, manbadan)
+- **Saqlash:** SQLite (mahalliy vault)
+- **Signaling:** standart endpoint `wss://signaling.1pro.uz/ws` (yoki o'zingizniki)
+
+**Platformalar**
+macOS (Apple Silicon va Intel) · Windows 10/11 (64-bit) · Linux (Ubuntu 22.04+) · Android (beta)
+
+**Holat:** **v0.5.x jonli reliz** · 8 ta bosqich tugadi · code signing jarayonda · MIT litsenziyali · ochiq kodli
+
+```bash
+# 1. reponi klonlang
+git clone https://github.com/Yaxyobek0877/portal_traffic.git
+cd portal_traffic/client
+
+# 2. portal yarating (1-terminal)
+go run ./cmd/portal-cli -mode create -nick alice
+
+# 3. kodni boshqa terminalda joylang
+go run ./cmd/portal-cli -mode join -nick bob \
+    -portal <ID> -code <KOD>
+```
 
 ---
 
