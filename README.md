@@ -25,13 +25,13 @@ asosiy_tillar: [Go, Python]
 ma'lumotlar:   [PostgreSQL, Redis, MongoDB, Qdrant]
 hozir_o'rgan:  [Microservices, gRPC, Kubernetes, LLM/RAG, Clean Architecture]
 qiziqishlar:   [Tez API'lar, Tizim dizayni, DevOps, AI integratsiya, Open Source]
-shior:         "Sodda kod — eng yaxshi kod."
+shior:         "G'oyalarni o'ylab topib bo'lmaydi, ular asta-sekin shakllanadi."
 ```
 
 - Hozir **1Pro** ekotizimi (portal, Gazer monitoring, ichki API'lar) va **KokandSU AI Assistant** ustida ishlayapman.
 - AI muhandisligi yo'nalishida: **LLM API'lar**, **RAG**, **vector qidiruv** va **agent**'lar bilan ishlayman.
 - Backend arxitekturasi, PostgreSQL optimallashtirish, Docker va AI integratsiyasi bo'yicha gaplasha olaman.
-- Bog'lanish: **testeryahyobek@gmail.com** yoki Telegram orqali.
+- Bog'lanish: **yaxyobek877@gmail.com** yoki Telegram orqali.
 
 ---
 
@@ -198,12 +198,11 @@ Qo'qon Davlat Universiteti uchun AI yordamchi. Saytda ko'rinib turganidek, asosi
 
 ## Hozir o'rganayotganlarim
 
-- **Domain-Driven Design (DDD)** va **Clean Architecture** Go loyihalarida
-- **Event-driven** arxitektura (Kafka, NATS)
-- **Kubernetes** operatorlar va Helm chart'lar
-- **API security** — OAuth2, rate limiting, audit logging
-- **AI agentlar** — tool use, function calling, multi-step reasoning
-- O'qiyman: *"Designing Data-Intensive Applications"* — Martin Kleppmann
+- **Modellarni o'qitish va tayyorlash** — ML va LLM modellarini dataset bilan o'qitish, fine-tuning, baholash hamda foydalanishga tayyorlash
+- **To'liq tizimlarni markazlashtirish** — alohida xizmatlarni bitta yagona platformaga birlashtirish, ma'lumotlar oqimini bir markazdan boshqarish
+- **Jarayonlarni raqamlashtirish** — qog'ozda va qo'lda bajariladigan biznes jarayonlarini to'liq avtomatlashtirilgan, raqamli tizimlarga ko'chirish
+- **MLOps va data pipeline** — ma'lumotlarni yig'ish, tozalash, model versioning va monitoring
+- **AI agentlar** — tool use, function calling, multi-step reasoning va RAG arxitekturasi
 
 ---
 
@@ -223,7 +222,7 @@ Qo'qon Davlat Universiteti uchun AI yordamchi. Saytda ko'rinib turganidek, asosi
   <a href="https://t.me/adhamov_yaxyobek">
     <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
-  <a href="mailto:testeryahyobek@gmail.com">
+  <a href="mailto:yaxyobek877@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
   <a href="https://github.com/Yaxyobek0877">
@@ -237,7 +236,7 @@ Qo'qon Davlat Universiteti uchun AI yordamchi. Saytda ko'rinib turganidek, asosi
 ---
 
 <p align="center">
-  <i>"Eng yaxshi kod — keyin o'qiganingda ham tushunarli kod."</i>
+  <i>"G'oyalarni o'ylab topib bo'lmaydi, ular asta-sekin shakllanadi."</i>
 </p>
 
 <p align="center">
