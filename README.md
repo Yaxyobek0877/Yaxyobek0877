@@ -205,8 +205,8 @@ Tizim holatini, server metrikalarini, biznes ko'rsatkichlarini katta ekranlarda 
 
 <p align="center">
   <a href="https://github.com/Yaxyobek0877">
-    <img height="170" src="https://github-readme-stats.vercel.app/api?username=Yaxyobek0877&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&title_color=00ADD8&icon_color=00ADD8&text_color=c9d1d9&bg_color=0d1117&cache_seconds=1800" alt="GitHub Stats" />
-    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yaxyobek0877&layout=compact&hide_border=true&title_color=00ADD8&text_color=c9d1d9&bg_color=0d1117&langs_count=8&cache_seconds=1800" alt="Top Languages" />
+    <img height="180" src="https://github-readme-stats.vercel.app/api?username=Yaxyobek0877&show_icons=true&hide_border=true&theme=tokyonight&title_color=00ADD8&icon_color=00ADD8&v=2" alt="GitHub Stats" />
+    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yaxyobek0877&layout=compact&hide_border=true&theme=tokyonight&title_color=00ADD8&langs_count=8&v=2" alt="Top Languages" />
   </a>
 </p>
 
@@ -224,10 +224,7 @@ Tizim holatini, server metrikalarini, biznes ko'rsatkichlarini katta ekranlarda 
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Yaxyobek0877&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=00ADD8&line=00ADD8&point=ffffff" alt="Activity Graph" />
 </details>
 
-> **Eslatma:** GitHub statistika kartalari (`github-readme-stats`, `streak-stats`) Vercel CDN
-> orqali ishlaydi va birinchi marta yuklanganda bir necha daqiqa vaqt ketishi mumkin.
-> Agar rasm hozir ko'rinmasa — bu normal holat. Sahifani 5–10 daqiqadan keyin yangilang,
-> CDN keshlanadi va keyin tez ochiladi.
+<sub><b>Eslatma:</b> Bu kartalar tashqi xizmatlar orqali yuklanadi (Vercel CDN). Agar rasm ko'rinmasa, <code>?v=2</code> parametrini o'zgartirib (masalan <code>v=3</code>), commit qiling — GitHub keshini yangilaydi.</sub>
 
 ---
 
