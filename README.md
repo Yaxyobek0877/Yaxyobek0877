@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://github.com/Yaxyobek0877">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00ADD8&center=true&vCenter=true&width=760&lines=Salom%2C+men+TexUz!;Backend+%26+Full-Stack+Developer;AI+Engineer+%2F+LLM+integratsiya;Go+%7C+Python+%7C+PostgreSQL;Qo%CA%BBqondan+salom%21" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00ADD8&center=true&vCenter=true&width=760&lines=Salom%2C+men+TexUz!;Backend+%26+Full-Stack+Developer;AI+Engineer+%2F+LLM+integratsiya;Python+%7C+Go+%7C+PostgreSQL;Qo%CA%BBqondan+salom%21" alt="Typing SVG" />
   </a>
 </h1>
 
@@ -22,7 +22,7 @@ rol:           Backend / AI muhandis / jamoa rahbari
 joylashuv:     Qo'qon, O'zbekiston
 loyihalar:     [1Pro (AI Gateway), Gazer Max (aqlli kampus), Portal (P2P mesh), KokandSU AI]
 open_source:   [github.com/Yaxyobek0877/portal_traffic]
-asosiy_tillar: [Go, Python]
+asosiy_tillar: [Python, Go]
 texnologiyalar: [Django, FastAPI, PostgreSQL, pgvector, Redis, Docker, Cloudflare]
 ai_stack:      [InsightFace, CUDA, LLM API, RAG, Vector search]
 tarmoq:        [WebRTC, pion/webrtc, PCP-1 (Ed25519/X25519/XChaCha20)]
@@ -43,8 +43,8 @@ shior:         "G'oyalarni o'ylab topib bo'lmaydi, ular asta-sekin shakllanadi."
 **Asosiy tillar**
 
 <p>
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
