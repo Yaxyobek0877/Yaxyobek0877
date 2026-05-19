@@ -20,9 +20,8 @@
 ism:           TexUz
 rol:           Backend / AI muhandis / jamoa rahbari
 joylashuv:     Qo'qon, O'zbekiston
-loyihalar:     [1Pro (AI Gateway), Gazer Max (aqlli kampus), Portal (P2P mesh), KokandSU AI]
+loyihalar:     [1Pro (AI Gateway), Gazer Max (aqlli kampus), Portal (P2P mesh), Enif]
 open_source:   [github.com/Yaxyobek0877/portal_traffic]
-asosiy_tillar: [Python, Go]
 texnologiyalar: [Django, FastAPI, PostgreSQL, pgvector, Redis, Docker, Cloudflare]
 ai_stack:      [InsightFace, CUDA, LLM API, RAG, Vector search]
 tarmoq:        [WebRTC, pion/webrtc, PCP-1 (Ed25519/X25519/XChaCha20)]
@@ -30,7 +29,7 @@ hozir_o'rgan:  [Model fine-tuning, Tizim markazlashtirish, MLOps]
 shior:         "G'oyalarni o'ylab topib bo'lmaydi, ular asta-sekin shakllanadi."
 ```
 
-- Hozir **1Pro AI Inference Gateway** (LLM API platforma), **Gazer Max** (yuz tanish asosidagi aqlli kampus) va **Portal** (P2P mesh tarmoq desktop dasturi, ochiq kodli) ustida ishlayapman; **KokandSU AI Assistant** ham mening loyihalarimdan biri.
+- Hozir **1Pro AI Inference Gateway** (LLM API platforma), **Gazer Max** (yuz tanish asosidagi aqlli kampus) va **Portal** (P2P mesh tarmoq desktop dasturi, ochiq kodli) ustida ishlayapman; **Enif** ham mening loyihalarimdan biri.
 - **AI muhandisligi**: LLM API'lar, **RAG**, **vector qidiruv** (`pgvector` HNSW), **yuz embedding** (`InsightFace` + CUDA) va **agentlar**.
 - **Tarmoq va P2P**: WebRTC + `pion/webrtc`, NAT-traversal, mesh topologiya, **PCP-1** shifrlash (Ed25519 + X25519 + XChaCha20-Poly1305).
 - **Backend va infra**: PostgreSQL optimallashtirish, real-time (WebSocket, mediamtx), **Hikvision ISAPI**, **Cloudflare Tunnel**, Docker.
@@ -227,17 +226,17 @@ go run ./cmd/portal-cli -mode join -nick bob \
 
 ---
 
-### KokandSU AI Assistant
+### Enif — AI yordamchi
 
 <p>
-  <a href="http://demo.kokandsu.uz/">
-    <img src="https://img.shields.io/badge/Demo-demo.kokandsu.uz-00ADD8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="demo.kokandsu.uz" />
+  <a href="https://enif.uz/">
+    <img src="https://img.shields.io/badge/Sayt-enif.uz-00ADD8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="enif.uz" />
   </a>
 </p>
 
-**Sayt:** [demo.kokandsu.uz](http://demo.kokandsu.uz/) &nbsp;·&nbsp; **Mijoz:** [Qo'qon Davlat Universiteti](https://kokandsu.uz/) &nbsp;·&nbsp; **Rolim:** Backend va AI integratsiya
+**Sayt:** [enif.uz](https://enif.uz/) &nbsp;·&nbsp; **Rolim:** Backend va AI integratsiya
 
-Qo'qon Davlat Universiteti uchun AI yordamchi. Saytda ko'rinib turganidek, asosiy yo'nalishlari: **chat**, **kod**, **hujjat**, **ovoz**.
+Enif — chat, kod, hujjat va ovoz yo'nalishlarini qamrab oluvchi AI yordamchi.
 
 > Texnik stack, modellar va arxitektura haqida batafsil ma'lumot tez orada qo'shiladi.
 
