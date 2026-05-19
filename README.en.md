@@ -230,19 +230,48 @@ go run ./cmd/portal-cli -mode join -nick bob \
 
 ---
 
-### Enif — AI assistant
+### Enif — Uzbek AI assistant
 
 <p>
   <a href="https://enif.uz/">
     <img src="https://img.shields.io/badge/Site-enif.uz-00ADD8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="enif.uz" />
   </a>
+  <a href="https://t.me/enif_ai_bot">
+    <img src="https://img.shields.io/badge/Telegram-@enif__ai__bot-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram bot" />
+  </a>
+  <img src="https://img.shields.io/badge/Platforms-Web%20%C2%B7%20iOS%20%C2%B7%20Android-success?style=for-the-badge&labelColor=0d1117" alt="Platforms" />
 </p>
 
-**Site:** [enif.uz](https://enif.uz/) &nbsp;·&nbsp; **My role:** Backend & AI integration
+**Site:** [enif.uz](https://enif.uz/) &nbsp;·&nbsp; **Telegram:** [@enif_ai_bot](https://t.me/enif_ai_bot) &nbsp;·&nbsp; **My role:** Backend & AI integration
 
-Enif — an AI assistant covering chat, code, document and voice workflows.
+**Enif** is a **multi-purpose AI assistant for the Uzbek language**. Chat, code generation, document analysis, voice interaction, test creation, image analysis and web search — all on a single platform. Available on Web, iOS, Android and as a Telegram bot.
 
-> Detailed tech stack, models and architecture coming soon.
+**Key features**
+- **Chat** — text answers to any question
+- **Code & project building** — generate and directly publish React, Node.js, Python, FastAPI projects
+- **Document analysis** — read and summarize PDF, DOCX, TXT files
+- **Voice interaction** — TTS / STT, speak your question and get a spoken answer
+- **Test creation and solving** — auto-generate topic-based quizzes
+- **Image analysis (vision)** — multimodal, ask questions about an image
+- **Web search** — pull the latest information from the internet
+- **Telegram bot** — quick access via [@enif_ai_bot](https://t.me/enif_ai_bot)
+
+**Special integrations**
+- **HEMIS** — works with university data for students
+- **Custom AI API key** — for companies
+
+**Supported languages**
+O'zbekcha · Русский · English · Čeština
+
+**Pricing**
+
+| Tier | Price | Workspace actions |
+|---|---|---|
+| **Free** | free | 3 / day |
+| **Pro** | 30,000 UZS / 30 days | 10 / day |
+| **Ultra** | 100,000 UZS / 30 days | 30 / day |
+
+**Status:** **live release** · Web + iOS + Android + Telegram bot · 4 languages
 
 ---
 

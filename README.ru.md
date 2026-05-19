@@ -230,19 +230,48 @@ go run ./cmd/portal-cli -mode join -nick bob \
 
 ---
 
-### Enif — AI-ассистент
+### Enif — узбекский AI-ассистент
 
 <p>
   <a href="https://enif.uz/">
     <img src="https://img.shields.io/badge/%D0%A1%D0%B0%D0%B9%D1%82-enif.uz-00ADD8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="enif.uz" />
   </a>
+  <a href="https://t.me/enif_ai_bot">
+    <img src="https://img.shields.io/badge/Telegram-@enif__ai__bot-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram bot" />
+  </a>
+  <img src="https://img.shields.io/badge/%D0%9F%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D1%8B-Web%20%C2%B7%20iOS%20%C2%B7%20Android-success?style=for-the-badge&labelColor=0d1117" alt="Платформы" />
 </p>
 
-**Сайт:** [enif.uz](https://enif.uz/) &nbsp;·&nbsp; **Моя роль:** Backend и AI интеграция
+**Сайт:** [enif.uz](https://enif.uz/) &nbsp;·&nbsp; **Telegram:** [@enif_ai_bot](https://t.me/enif_ai_bot) &nbsp;·&nbsp; **Моя роль:** Backend и AI интеграция
 
-Enif — AI-ассистент, охватывающий направления чата, кода, документов и голоса.
+**Enif** — **многофункциональный AI-ассистент на узбекском языке**. Чат, генерация кода, анализ документов, голосовое общение, создание тестов, анализ изображений и веб-поиск — всё на одной платформе. Доступен в Web, iOS, Android и как Telegram-бот.
 
-> Подробная информация о техническом стеке, моделях и архитектуре будет добавлена в ближайшее время.
+**Основные возможности**
+- **Чат** — текстовые ответы на любые вопросы
+- **Генерация кода и сборка проектов** — создание и прямая публикация проектов на React, Node.js, Python, FastAPI
+- **Анализ документов** — чтение и резюмирование PDF, DOCX, TXT
+- **Голосовое общение** — TTS / STT, говорите голосом и получайте голосовой ответ
+- **Создание и решение тестов** — автоматическая генерация тестов по теме
+- **Анализ изображений (vision)** — мультимодально, задавайте вопросы об изображении
+- **Веб-поиск** — самая свежая информация из интернета
+- **Telegram-бот** — быстрый доступ через [@enif_ai_bot](https://t.me/enif_ai_bot)
+
+**Специальные интеграции**
+- **HEMIS** — работа с университетскими данными для студентов
+- **Custom AI API ключ** — для компаний
+
+**Поддерживаемые языки**
+O'zbekcha · Русский · English · Čeština
+
+**Тарифы**
+
+| Тариф | Цена | Workspace-действий |
+|---|---|---|
+| **Free** | бесплатно | 3 / день |
+| **Pro** | 30 000 сум / 30 дней | 10 / день |
+| **Ultra** | 100 000 сум / 30 дней | 30 / день |
+
+**Статус:** **живой релиз** · Web + iOS + Android + Telegram-бот · 4 языка
 
 ---
 

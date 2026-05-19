@@ -230,19 +230,48 @@ go run ./cmd/portal-cli -mode join -nick bob \
 
 ---
 
-### Enif — AI yordamchi
+### Enif — O'zbek AI yordamchi
 
 <p>
   <a href="https://enif.uz/">
     <img src="https://img.shields.io/badge/Sayt-enif.uz-00ADD8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="enif.uz" />
   </a>
+  <a href="https://t.me/enif_ai_bot">
+    <img src="https://img.shields.io/badge/Telegram-@enif__ai__bot-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram bot" />
+  </a>
+  <img src="https://img.shields.io/badge/Platformalar-Web%20%C2%B7%20iOS%20%C2%B7%20Android-success?style=for-the-badge&labelColor=0d1117" alt="Platformalar" />
 </p>
 
-**Sayt:** [enif.uz](https://enif.uz/) &nbsp;·&nbsp; **Rolim:** Backend va AI integratsiya
+**Sayt:** [enif.uz](https://enif.uz/) &nbsp;·&nbsp; **Telegram:** [@enif_ai_bot](https://t.me/enif_ai_bot) &nbsp;·&nbsp; **Rolim:** Backend va AI integratsiya
 
-Enif — chat, kod, hujjat va ovoz yo'nalishlarini qamrab oluvchi AI yordamchi.
+**Enif** — O'zbek tilidagi **ko'p qirrali sun'iy intellekt yordamchisi**. Chat, kod yozish, hujjat tahlili, ovozli muloqot, test yaratish, rasm tahlili va web qidiruv — hammasi bitta platformada. Web, iOS, Android hamda Telegram bot orqali ishlaydi.
 
-> Texnik stack, modellar va arxitektura haqida batafsil ma'lumot tez orada qo'shiladi.
+**Asosiy imkoniyatlar**
+- **Chat** — har qanday savolga matnli javob
+- **Kod yozish va loyiha qurish** — React, Node.js, Python, FastAPI loyihalarini yaratish va to'g'ridan-to'g'ri publish qilish
+- **Hujjat tahlili** — PDF, DOCX, TXT fayllarni o'qish va xulosalash
+- **Ovozli muloqot** — TTS / STT, gapirib so'rang va ovozli javob oling
+- **Test yaratish va yechish** — mavzu bo'yicha avtomatik test tuzish
+- **Rasm tahlili (vision)** — multimodal, rasm haqida savol berish
+- **Web qidiruv** — internetdan eng yangi ma'lumotlarni topish
+- **Telegram bot** — [@enif_ai_bot](https://t.me/enif_ai_bot) orqali tezkor kirish
+
+**Maxsus integratsiyalar**
+- **HEMIS** — talabalar uchun universitet ma'lumotlari bilan ishlash
+- **Custom AI API kalit** — kompaniyalar uchun
+
+**Til qo'llab-quvvatlash**
+O'zbekcha · Русский · English · Čeština
+
+**Tariflar**
+
+| Tarif | Narx | Workspace amali |
+|---|---|---|
+| **Free** | bepul | 3 / kun |
+| **Pro** | 30 000 so'm / 30 kun | 10 / kun |
+| **Ultra** | 100 000 so'm / 30 kun | 30 / kun |
+
+**Holat:** **jonli reliz** · Web + iOS + Android + Telegram bot · 4 ta til
 
 ---
 
