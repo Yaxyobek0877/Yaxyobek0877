@@ -1,3 +1,7 @@
+<p align="center">
+  <b>O'zbekcha</b> · <a href="README.en.md">English</a> · <a href="README.ru.md">Русский</a>
+</p>
+
 <h1 align="center">
   <a href="https://github.com/Yaxyobek0877">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00ADD8&center=true&vCenter=true&width=760&lines=Salom%2C+men+TexUz!;Backend+%26+Full-Stack+Developer;AI+Engineer+%2F+LLM+integratsiya;Python+%7C+Go+%7C+PostgreSQL;Qo%CA%BBqondan+salom%21" alt="Typing SVG" />
