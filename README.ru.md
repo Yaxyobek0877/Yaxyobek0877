@@ -233,8 +233,8 @@ go run ./cmd/portal-cli -mode join -nick bob \
 ### Enif — узбекский AI-ассистент
 
 <p>
-  <a href="https://enif.uz/">
-    <img src="https://img.shields.io/badge/%D0%A1%D0%B0%D0%B9%D1%82-enif.uz-00ADD8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="enif.uz" />
+  <a href="https://enif.uz/about">
+    <img src="https://img.shields.io/badge/%D0%A1%D0%B0%D0%B9%D1%82-enif.uz%2Fabout-00ADD8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="enif.uz/about" />
   </a>
   <a href="https://t.me/enif_ai_bot">
     <img src="https://img.shields.io/badge/Telegram-@enif__ai__bot-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram bot" />
@@ -242,7 +242,7 @@ go run ./cmd/portal-cli -mode join -nick bob \
   <img src="https://img.shields.io/badge/%D0%9F%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D1%8B-Web%20%C2%B7%20iOS%20%C2%B7%20Android-success?style=for-the-badge&labelColor=0d1117" alt="Платформы" />
 </p>
 
-**Сайт:** [enif.uz](https://enif.uz/) &nbsp;·&nbsp; **Telegram:** [@enif_ai_bot](https://t.me/enif_ai_bot) &nbsp;·&nbsp; **Моя роль:** Backend и AI интеграция
+**Сайт:** [enif.uz/about](https://enif.uz/about) &nbsp;·&nbsp; **Telegram:** [@enif_ai_bot](https://t.me/enif_ai_bot) &nbsp;·&nbsp; **Моя роль:** Backend и AI интеграция
 
 **Enif** — **многофункциональный AI-ассистент на узбекском языке**. Чат, генерация кода, анализ документов, голосовое общение, создание тестов, анализ изображений и веб-поиск — всё на одной платформе. Доступен в Web, iOS, Android и как Telegram-бот.
 
@@ -272,33 +272,6 @@ O'zbekcha · Русский · English · Čeština
 | **Ultra** | 100 000 сум / 30 дней | 30 / день |
 
 **Статус:** **живой релиз** · Web + iOS + Android + Telegram-бот · 4 языка
-
----
-
-## Статистика GitHub
-
-<p align="center">
-  <a href="https://github.com/Yaxyobek0877">
-    <img height="180" src="https://github-readme-stats.vercel.app/api?username=Yaxyobek0877&show_icons=true&hide_border=true&theme=tokyonight&title_color=00ADD8&icon_color=00ADD8&v=2" alt="GitHub Stats" />
-    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yaxyobek0877&layout=compact&hide_border=true&theme=tokyonight&title_color=00ADD8&langs_count=8&v=2" alt="Top Languages" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Yaxyobek0877&theme=tokyonight&hide_border=true&background=0d1117&stroke=00ADD8&ring=00ADD8&fire=00ADD8&currStreakLabel=00ADD8" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Yaxyobek0877&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies" />
-</p>
-
-<details>
-  <summary><b>График активности</b></summary>
-  <br/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Yaxyobek0877&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=00ADD8&line=00ADD8&point=ffffff" alt="Activity Graph" />
-</details>
-
-<sub><b>Примечание:</b> Эти карточки загружаются через внешние сервисы (Vercel CDN). Если изображение не отображается, измените параметр <code>?v=2</code> (например, на <code>v=3</code>) и сделайте коммит — это сбросит кеш GitHub.</sub>
 
 ---
 

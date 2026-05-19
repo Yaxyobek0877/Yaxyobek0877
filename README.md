@@ -233,8 +233,8 @@ go run ./cmd/portal-cli -mode join -nick bob \
 ### Enif — O'zbek AI yordamchi
 
 <p>
-  <a href="https://enif.uz/">
-    <img src="https://img.shields.io/badge/Sayt-enif.uz-00ADD8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="enif.uz" />
+  <a href="https://enif.uz/about">
+    <img src="https://img.shields.io/badge/Sayt-enif.uz%2Fabout-00ADD8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="enif.uz/about" />
   </a>
   <a href="https://t.me/enif_ai_bot">
     <img src="https://img.shields.io/badge/Telegram-@enif__ai__bot-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram bot" />
@@ -242,7 +242,7 @@ go run ./cmd/portal-cli -mode join -nick bob \
   <img src="https://img.shields.io/badge/Platformalar-Web%20%C2%B7%20iOS%20%C2%B7%20Android-success?style=for-the-badge&labelColor=0d1117" alt="Platformalar" />
 </p>
 
-**Sayt:** [enif.uz](https://enif.uz/) &nbsp;·&nbsp; **Telegram:** [@enif_ai_bot](https://t.me/enif_ai_bot) &nbsp;·&nbsp; **Rolim:** Backend va AI integratsiya
+**Sayt:** [enif.uz/about](https://enif.uz/about) &nbsp;·&nbsp; **Telegram:** [@enif_ai_bot](https://t.me/enif_ai_bot) &nbsp;·&nbsp; **Rolim:** Backend va AI integratsiya
 
 **Enif** — O'zbek tilidagi **ko'p qirrali sun'iy intellekt yordamchisi**. Chat, kod yozish, hujjat tahlili, ovozli muloqot, test yaratish, rasm tahlili va web qidiruv — hammasi bitta platformada. Web, iOS, Android hamda Telegram bot orqali ishlaydi.
 
@@ -272,33 +272,6 @@ O'zbekcha · Русский · English · Čeština
 | **Ultra** | 100 000 so'm / 30 kun | 30 / kun |
 
 **Holat:** **jonli reliz** · Web + iOS + Android + Telegram bot · 4 ta til
-
----
-
-## GitHub statistikasi
-
-<p align="center">
-  <a href="https://github.com/Yaxyobek0877">
-    <img height="180" src="https://github-readme-stats.vercel.app/api?username=Yaxyobek0877&show_icons=true&hide_border=true&theme=tokyonight&title_color=00ADD8&icon_color=00ADD8&v=2" alt="GitHub Stats" />
-    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yaxyobek0877&layout=compact&hide_border=true&theme=tokyonight&title_color=00ADD8&langs_count=8&v=2" alt="Top Languages" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Yaxyobek0877&theme=tokyonight&hide_border=true&background=0d1117&stroke=00ADD8&ring=00ADD8&fire=00ADD8&currStreakLabel=00ADD8" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Yaxyobek0877&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies" />
-</p>
-
-<details>
-  <summary><b>Faollik grafigi</b></summary>
-  <br/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Yaxyobek0877&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=00ADD8&line=00ADD8&point=ffffff" alt="Activity Graph" />
-</details>
-
-<sub><b>Eslatma:</b> Bu kartalar tashqi xizmatlar orqali yuklanadi (Vercel CDN). Agar rasm ko'rinmasa, <code>?v=2</code> parametrini o'zgartirib (masalan <code>v=3</code>), commit qiling — GitHub keshini yangilaydi.</sub>
 
 ---
 

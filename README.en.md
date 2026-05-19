@@ -233,8 +233,8 @@ go run ./cmd/portal-cli -mode join -nick bob \
 ### Enif — Uzbek AI assistant
 
 <p>
-  <a href="https://enif.uz/">
-    <img src="https://img.shields.io/badge/Site-enif.uz-00ADD8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="enif.uz" />
+  <a href="https://enif.uz/about">
+    <img src="https://img.shields.io/badge/Site-enif.uz%2Fabout-00ADD8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="enif.uz/about" />
   </a>
   <a href="https://t.me/enif_ai_bot">
     <img src="https://img.shields.io/badge/Telegram-@enif__ai__bot-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram bot" />
@@ -242,7 +242,7 @@ go run ./cmd/portal-cli -mode join -nick bob \
   <img src="https://img.shields.io/badge/Platforms-Web%20%C2%B7%20iOS%20%C2%B7%20Android-success?style=for-the-badge&labelColor=0d1117" alt="Platforms" />
 </p>
 
-**Site:** [enif.uz](https://enif.uz/) &nbsp;·&nbsp; **Telegram:** [@enif_ai_bot](https://t.me/enif_ai_bot) &nbsp;·&nbsp; **My role:** Backend & AI integration
+**Site:** [enif.uz/about](https://enif.uz/about) &nbsp;·&nbsp; **Telegram:** [@enif_ai_bot](https://t.me/enif_ai_bot) &nbsp;·&nbsp; **My role:** Backend & AI integration
 
 **Enif** is a **multi-purpose AI assistant for the Uzbek language**. Chat, code generation, document analysis, voice interaction, test creation, image analysis and web search — all on a single platform. Available on Web, iOS, Android and as a Telegram bot.
 
@@ -272,33 +272,6 @@ O'zbekcha · Русский · English · Čeština
 | **Ultra** | 100,000 UZS / 30 days | 30 / day |
 
 **Status:** **live release** · Web + iOS + Android + Telegram bot · 4 languages
-
----
-
-## GitHub stats
-
-<p align="center">
-  <a href="https://github.com/Yaxyobek0877">
-    <img height="180" src="https://github-readme-stats.vercel.app/api?username=Yaxyobek0877&show_icons=true&hide_border=true&theme=tokyonight&title_color=00ADD8&icon_color=00ADD8&v=2" alt="GitHub Stats" />
-    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yaxyobek0877&layout=compact&hide_border=true&theme=tokyonight&title_color=00ADD8&langs_count=8&v=2" alt="Top Languages" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Yaxyobek0877&theme=tokyonight&hide_border=true&background=0d1117&stroke=00ADD8&ring=00ADD8&fire=00ADD8&currStreakLabel=00ADD8" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Yaxyobek0877&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies" />
-</p>
-
-<details>
-  <summary><b>Activity graph</b></summary>
-  <br/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Yaxyobek0877&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=00ADD8&line=00ADD8&point=ffffff" alt="Activity Graph" />
-</details>
-
-<sub><b>Note:</b> These cards are loaded via external services (Vercel CDN). If an image doesn't show, change the <code>?v=2</code> parameter (e.g. to <code>v=3</code>) and commit — that busts the GitHub cache.</sub>
 
 ---
 
