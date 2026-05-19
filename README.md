@@ -275,26 +275,6 @@ O'zbekcha · Русский · English · Čeština
 
 ---
 
-## Hozir o'rganayotganlarim
-
-- **Modellarni o'qitish va tayyorlash** — ML va LLM modellarini dataset bilan o'qitish, fine-tuning, baholash hamda foydalanishga tayyorlash
-- **To'liq tizimlarni markazlashtirish** — alohida xizmatlarni bitta yagona platformaga birlashtirish, ma'lumotlar oqimini bir markazdan boshqarish
-- **Jarayonlarni raqamlashtirish** — qog'ozda va qo'lda bajariladigan biznes jarayonlarini to'liq avtomatlashtirilgan, raqamli tizimlarga ko'chirish
-- **MLOps va data pipeline** — ma'lumotlarni yig'ish, tozalash, model versioning va monitoring
-- **AI agentlar** — tool use, function calling, multi-step reasoning va RAG arxitekturasi
-
----
-
-## 2026 yil rejalarim
-
-- [ ] 1Pro ekotizimida bir necha xizmatni microservices'ga ko'chirish
-- [ ] Ochiq kodli (open-source) Go kutubxonasini chiqarish
-- [ ] Texnik blog yuritishni boshlash (Go, PostgreSQL, AI haqida)
-- [ ] Yosh dasturchilarga mentor bo'lish
-- [ ] Performance optimization bo'yicha case study yozish
-
----
-
 ## Bog'lanish
 
 <p align="center">

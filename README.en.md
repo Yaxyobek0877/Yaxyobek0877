@@ -275,26 +275,6 @@ O'zbekcha · Русский · English · Čeština
 
 ---
 
-## What I'm learning now
-
-- **Training and shipping models** — training, fine-tuning, evaluating and shipping ML and LLM models on real datasets
-- **Centralizing whole systems** — merging separate services into one unified platform, managing data flow from a single hub
-- **Digitizing processes** — moving paper-based and manual business processes onto fully automated digital systems
-- **MLOps & data pipelines** — data collection, cleaning, model versioning and monitoring
-- **AI agents** — tool use, function calling, multi-step reasoning and RAG architectures
-
----
-
-## 2026 plans
-
-- [ ] Move several services in the 1Pro ecosystem to microservices
-- [ ] Release an open-source Go library
-- [ ] Start a technical blog (Go, PostgreSQL, AI)
-- [ ] Mentor junior developers
-- [ ] Write a case study on performance optimization
-
----
-
 ## Contact
 
 <p align="center">
